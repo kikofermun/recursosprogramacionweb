@@ -28,3 +28,9 @@ Una vez creada esta carpeta, nos meteremos dentro y crearemos el fichero __index
 $ cd webserverexpress
 $ touch index.js
 ```
+Además, dentro de esta carpeta también hemos de iniciar un proyecto __npm__ e instalar el __módulo express__ y el __motor de plantillas EJS__. Todo ésto se haría mediante los siguientes comandos:
+```
+$ npm init
+$ npm install express --save
+$ npm install ejs --save
+```
