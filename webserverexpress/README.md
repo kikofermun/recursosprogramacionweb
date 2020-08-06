@@ -17,3 +17,14 @@ La instalación de Node.js se puede hacer desde [su página web](https://nodejs.
 $ node -v
 v8.10.0
 ```
+
+# Escribiendo código
+Para tener todo el código organizado, lo primero que vamos a hacer es crear una carpeta con el nombre __webserverexpress__ donde guardaremos todas las carpetas y los ficheros necesarios. Desde la terminal, la creación de esta carpeta se haría mediante el siguiente comando:
+```
+$ mkdir webserverexpress
+```
+Una vez creada esta carpeta, nos meteremos dentro y crearemos el fichero __index.js__, el cual contendrá el código principal del servidor web. La creación del fichero dentro de la carpeta creada se haría mediante los siguientes comandos:
+```
+$ cd webserverexpress
+$ touch index.js
+```
